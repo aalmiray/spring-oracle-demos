@@ -23,6 +23,8 @@ spring.datasource.password=<password>
 
 A copy of the wallet should be placed in a directory named `wallet`, adjacent to the `pom.xml` file.
 
+Run the `DemoApplication` class from your IDE or invoke `/.mvnw spring-boot:run` on the command line.
+
 ### spring-soda-demo
 
 Showcases a JSON collection via SODA.
