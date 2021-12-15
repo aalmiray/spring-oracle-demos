@@ -40,22 +40,6 @@ A copy of the wallet should be placed in a directory named `wallet`, adjacent to
 
 Run the `DemoApplication` class from your IDE or invoke `/.mvnw spring-boot:run` on the command line.
 
-### spring-soda-demo
-
-Showcases a relational table with a single JSON column.
-
-You must update `spring-soda-demo/src/main/resources/application.properties` with the correct settings for your AJD:
-
-```
-spring.datasource.url=jdbc:oracle:thin:@<database_name>
-spring.datasource.username=<username>
-spring.datasource.password=<password>
-```
-
-A copy of the wallet should be placed in a directory named `wallet`, adjacent to the `pom.xml` file.
-
-Run the `DemoApplication` class from your IDE or invoke `/.mvnw spring-boot:run` on the command line.
-
 ### spring-mongo-demo
 
 Showcases the Oracle Mongo API via Spring-Data
